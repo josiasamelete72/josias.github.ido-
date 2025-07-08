@@ -1,1 +1,139 @@
-<h1>My Portfolio</h1> 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Amelete Sosso Josias-Didace</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #2a5298;
+      padding-bottom: 10px;
+      color: #1e3c72;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .project, .formation {
+      margin-bottom: 20px;
+    }
+    .form-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 400px;
+    }
+    .form-contact input, .form-contact textarea {
+      padding: 10px;
+      font-size: 1em;
+      width: 100%;
+    }
+    .form-contact button {
+      padding: 10px;
+      background-color: #1e3c72;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .image-section {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .image-section img {
+      width: 200px;
+      border-radius: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #2a5298;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Amelete Sosso Josias-Didace</h1>
+  <p>Passionné d'informatique depuis le Togo</p>
+</header>
+
+<section>
+  <h2>Bienvenue</h2>
+  <p>Je suis Amelete Sosso Josias-Didace, j’ai 18 ans et je viens de Lomé, Togo. L’informatique est plus qu’une passion pour moi : c’est une vocation. J’ai découvert ce monde en voulant comprendre pourquoi mon jeu ne marchait plus… et depuis, je n’ai jamais arrêté d’apprendre. Aujourd’hui, je rêve d’intégrer SUPINFO pour transformer cette passion en carrière.</p>
+  <div class="image-section">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Computer-aj_aj_ashton_01.svg/2048px-Computer-aj_aj_ashton_01.svg.png" alt="Ordinateur">
+  </div>
+</section>
+
+<section>
+  <h2>Compétences</h2>
+  <ul>
+    <li>Création de sites web (HTML, CSS)</li>
+    <li>Formatage et maintenance de PC</li>
+    <li>Notions de Python</li>
+    <li>Utilisation de GitHub</li>
+    <li>Rédaction de contenu, design simple avec Canva</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Projets</h2>
+  <div class="project">
+    <strong>Portfolio Web :</strong>
+    <p>Ce site web que vous visitez actuellement, codé à la main avec HTML et CSS, hébergé pour montrer ma motivation.</p>
+  </div>
+  <div class="project">
+    <strong>Optimiseur de PC (prototype) :</strong>
+    <p>Un projet personnel pour créer un script qui ferme les tâches inutiles avant de lancer un jeu, pour améliorer les performances.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Formations & expériences</h2>
+  <div class="formation">
+    <strong>Baccalauréat International (BI), obtenu en 2025</strong>
+    <ul>
+      <li>Mathématiques : 5/7 (équivalent à 14,3/20)</li>
+      <li>Spécialités : NSI (Numérique et Sciences Informatiques), Mathématiques</li>
+      <li>Note finale : 25/45</li>
+    </ul>
+    <p>Le BI est un diplôme reconnu mondialement, noté sur 45 points. Il développe la rigueur, l’analyse critique, l’autonomie et l’esprit d’initiative.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Formulaire de contact</h2>
+  <form class="form-contact" action="mailto:josiasamelete72@gmail.com" method="POST" enctype="text/plain">
+    <input type="text" name="Nom" placeholder="Votre nom" required>
+    <input type="email" name="Email" placeholder="Votre email" required>
+    <textarea name="Message" placeholder="Votre message" rows="5" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Amelete Sosso Josias-Didace. Tous droits réservés.
+</footer>
+
+</body>
+</html>
